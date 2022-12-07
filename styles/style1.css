@@ -369,10 +369,10 @@
 
 @media screen and (max-width: 499px) {
 
-    .about{
+    .about {
         margin-top: 100px;
     }
-    
+
     .about .reflection {
         width: 250px;
         height: 222px;
@@ -557,7 +557,7 @@
         height: calc(35% - 100px);
         background-color: white;
         border-radius: 12px 12px 0 0;
-        
+
     }
 
     .rezultate {
@@ -571,7 +571,7 @@
         padding-top: 50px;
     }
 
-    .rezultate .box{
+    .rezultate .box {
         padding-left: 50px;
     }
 
@@ -608,7 +608,7 @@
         height: calc(30% - 50px);
         background-color: white;
         border-radius: 12px 12px 0 0;
-        
+
     }
 
     .rezultate {
@@ -622,7 +622,7 @@
         padding-top: 50px;
     }
 
-    .rezultate .box{
+    .rezultate .box {
         padding-left: 25px;
     }
 
@@ -675,7 +675,7 @@
         height: calc(30% - 50px);
         background-color: white;
         border-radius: 12px 12px 0 0;
-        
+
     }
 
     .rezultate {
@@ -689,7 +689,7 @@
         padding-top: 50px;
     }
 
-    .rezultate .box{
+    .rezultate .box {
         padding-left: 25px;
     }
 
@@ -704,7 +704,7 @@
         padding-bottom: 15px;
     }
 
-    .titlu img{
+    .titlu img {
         width: 150px;
         height: 80px;
     }
@@ -758,15 +758,15 @@
     border-radius: 12px 0 0 12px;
 }
 
-.Game h1{
+.Game h1 {
     display: none;
 }
 
-.Game .line1{
+.Game .line1 {
     display: none;
 }
 
-.Game .line2{
+.Game .line2 {
     display: none;
 }
 
@@ -778,7 +778,7 @@
     padding-top: 80px;
 }
 
-.Title .RezGame1{
+.Title .RezGame1 {
     display: none;
 }
 
@@ -792,11 +792,11 @@
     height: 170px;
 }
 
-.between{
+.between {
     padding-top: 130px;
 }
 
-.up{
+.up {
     display: flex;
     flex-direction: row;
     font-size: 80px;
@@ -805,27 +805,27 @@
     color: white;
 }
 
-.up .versus{
+.up .versus {
     margin-left: 25px;
     margin-right: 25px;
     font-size: 50px;
 }
 
-.down{
+.down {
     text-align: center;
     padding-left: 10px;
 }
 
-.down p{
+.down p {
     margin: 0;
 }
 
-.date-time{
+.date-time {
     display: flex;
     flex-direction: row;
 }
 
-.date-line{
+.date-line {
     height: 25px;
     width: 1px;
     background-color: white;
@@ -833,81 +833,81 @@
     margin-right: 10px;
 }
 
-.down p{
+.down p {
     font-size: larger;
     color: white;
 }
 
-.RezGame{
+.RezGame {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.Title h1{
+.Title h1 {
     font-size: 60px;
 }
 
-.line1{
+.line1 {
     height: 2px;
     width: 270px;
     background-color: black;
     transform: translateX(-22%);
 }
 
-.line2{
+.line2 {
     height: 2px;
     width: 260px;
     background-color: black;
     transform: translateX(27%);
 }
 
-.ultimul{
+.ultimul {
     padding-left: 10px;
 }
 
-.meci{
+.meci {
     padding-top: 40px;
     padding-left: 65px;
 }
 
 @media screen and (max-width: 1249px) {
-    .LastGame{
+    .LastGame {
         width: 1000px;
         margin-bottom: 150px;
     }
 
-    .Title .line2{
+    .Title .line2 {
         transform: translateX(8%);
     }
 
-    .meci{
+    .meci {
         padding-left: 18px;
     }
 }
 
 @media screen and (max-width: 1099px) {
-    .LastGame{
+    .LastGame {
         width: 800px;
     }
 
-    .Title .line1{
+    .Title .line1 {
         width: 220px;
         transform: translateX(-27%);
     }
 
-    .Title .line2{
+    .Title .line2 {
         width: 170px;
         transform: translateX(35%);
     }
 
-    .ultimul{
+    .ultimul {
         padding-left: 0;
         transform: translateX(-15%);
     }
 
-    .meci{
+    .meci {
         padding-left: 55px;
     }
 
@@ -915,7 +915,7 @@
         width: 130px;
         height: 130px;
     }
-    
+
     .echipa2 {
         width: 130px;
         height: 130px;
@@ -924,38 +924,39 @@
 }
 
 @media screen and (max-width: 899px) {
-    .LastGame{
+    .LastGame {
         width: 600px;
         height: 800px;
         flex-direction: column;
         border-radius: 15px 15px 12px 12px;
     }
 
-    .Game{
+    .Game {
         width: 100%;
         height: calc(20% + 100px);
         border: none;
         background-color: white;
         border-radius: 12px 12px 0 0;
-        
+
     }
 
-    .Game .RezGame{
+    .Game .RezGame {
         display: none;
     }
 
-    .Game h1{
+    .Game h1 {
         display: block;
     }
 
-    .Game .line1{
-        display: block;
-    }
-    .Game .line2{
+    .Game .line1 {
         display: block;
     }
 
-    .Title{
+    .Game .line2 {
+        display: block;
+    }
+
+    .Title {
         width: 100%;
         height: calc(80% - 100px);
         background-color: transparent;
@@ -966,95 +967,100 @@
         padding-top: 50px;
     }
 
-    .Title h1{
+    .Title h1 {
         display: none;
     }
 
-    .Title .line1{
+    .Title .line1 {
         display: none;
     }
 
-    .Title .line2{
+    .Title .line2 {
         display: none;
     }
 
-    .Title .RezGame1{
+    .Title .RezGame1 {
         display: flex;
         padding-top: 25px;
         padding-left: 39px;
     }
 
-    .between{
+    .between {
         padding-top: 30px;
+    }
+
+    .down {
+        padding: 0;
     }
 
     .echipa1 {
         width: 170px;
         height: 170px;
     }
-    
+
     .echipa2 {
         width: 170px;
         height: 170px;
     }
 
-    .Game{
+    .Game {
         padding-top: 30px;
         padding-left: 100px;
     }
 
-    .Game h1{
+    .Game h1 {
         font-size: 60px;
     }
 
-    .line1{
+    .line1 {
         width: 300px;
         transform: translateX(-33.5%);
     }
 
-    .meci{
+    .meci {
         padding-left: 240px;
     }
 
-    .line2{
+    .line2 {
         transform: translateX(92.5%);
     }
-    
+
 }
 
 @media screen and (max-width: 649px) {
-    .LastGame{
+    .LastGame {
         width: 450px;
         height: 600px;
         flex-direction: column;
         border-radius: 15px 15px 12px 12px;
     }
 
-    .Game{
+    .Game {
         width: 100%;
         height: calc(20% + 100px);
         border: none;
         background-color: white;
         border-radius: 12px 12px 0 0;
-        
+
     }
 
-    .Game .RezGame{
+    .Game .RezGame {
         display: none;
     }
 
-    .Game h1{
+    .Game h1 {
         display: block;
     }
 
-    .Game .line1{
-        display: block;
-    }
-    .Game .line2{
+    .Game .line1 {
         display: block;
     }
 
-    .Title{
+    .Game .line2 {
+        display: block;
+    }
+
+    .Title {
         width: 100%;
         height: calc(80% - 100px);
         background-color: transparent;
@@ -1065,26 +1071,26 @@
         padding-top: 50px;
     }
 
-    .Title h1{
+    .Title h1 {
         display: none;
     }
 
-    .Title .line1{
+    .Title .line1 {
         display: none;
     }
 
-    .Title .line2{
+    .Title .line2 {
         display: none;
     }
 
-    .Title .RezGame1{
+    .Title .RezGame1 {
         display: flex;
         padding: 0;
         padding-left: 15px;
 
     }
 
-    .between{
+    .between {
         padding-top: 10px;
     }
 
@@ -1092,79 +1098,80 @@
         width: 130px;
         height: 130px;
     }
-    
+
     .echipa2 {
         width: 130px;
         height: 130px;
     }
 
-    .Game{
+    .Game {
         padding-top: 15px;
     }
 
-    .Game h1{
+    .Game h1 {
         font-size: 60px;
     }
 
-    .line1{
+    .line1 {
         width: 300px;
         transform: translateX(-33.5%);
     }
 
-    .meci{
+    .meci {
         padding-top: 20px;
         padding-left: 90px;
     }
 
-    .line2{
+    .line2 {
         transform: translateX(35%);
     }
 
-    .up{
+    .up {
         font-size: 60px;
     }
 
-    .down{
+    .down {
         padding-left: 2px;
         font-size: 13px;
     }
-    
+
 }
 
 @media screen and (max-width: 499px) {
 
-    .LastGame{
+    .LastGame {
         width: 350px;
         height: 500px;
         flex-direction: column;
         border-radius: 15px 15px 12px 12px;
     }
 
-    .Game{
+    .Game {
         width: 100%;
         height: calc(20% + 100px);
         border: none;
         background-color: white;
         border-radius: 12px 12px 0 0;
-        
+
     }
 
-    .Game .RezGame{
+    .Game .RezGame {
         display: none;
     }
 
-    .Game h1{
+    .Game h1 {
         display: block;
     }
 
-    .Game .line1{
-        display: block;
-    }
-    .Game .line2{
+    .Game .line1 {
         display: block;
     }
 
-    .Title{
+    .Game .line2 {
+        display: block;
+    }
+
+    .Title {
         width: 100%;
         height: calc(80% - 100px);
         background-color: transparent;
@@ -1175,24 +1182,24 @@
         padding-top: 50px;
     }
 
-    .Title h1{
+    .Title h1 {
         display: none;
     }
 
-    .Title .line1{
+    .Title .line1 {
         display: none;
     }
 
-    .Title .line2{
+    .Title .line2 {
         display: none;
     }
 
-    .Title .RezGame1{
+    .Title .RezGame1 {
         display: flex;
         padding: 0;
     }
 
-    .between{
+    .between {
         padding-top: 10px;
     }
 
@@ -1200,50 +1207,50 @@
         width: 100px;
         height: 100px;
     }
-    
+
     .echipa2 {
         width: 100px;
         height: 100px;
     }
 
-    .Game{
+    .Game {
         padding-top: 10px;
     }
 
-    .Game h1{
+    .Game h1 {
         font-size: 45px;
     }
 
-    .line1{
+    .line1 {
         width: 250px;
         transform: translateX(-40%);
     }
 
-    .meci{
+    .meci {
         padding-top: 30px;
         padding-left: 90px;
     }
 
-    .line2{
+    .line2 {
         width: 160px;
         transform: translateX(56%);
     }
 
-    .up{
+    .up {
         font-size: 50px;
     }
 
-    .down{
+    .down {
         padding-left: 2px;
         font-size: 12px;
     }
-    
+
 }
 
 /* ======== last game end ======== */
 
 /* ========== next games start ========== */
-.NextGame{
+.NextGame {
     margin-left: auto;
     margin-right: auto;
     height: 400px;
@@ -1257,26 +1264,27 @@
     border-radius: 13px 12px 12px 13px;
 }
 
-.background-shape{
+.background-shape {
     display: flex;
     flex-direction: row;
 }
 
-.shape1{
+.shape1 {
     width: 200px;
     height: 400px;
     background-color: white;
     border-radius: 12px 0 0 12px;
 }
-.shape2{
+
+.shape2 {
     width: 300px;
     height: 400px;
     background-color: white;
     transform: skewX(-20deg) translateX(-80px);
-    
+
 }
 
-.game1{
+.game1 {
     background-color: white;
     width: 650px;
     height: 100px;
@@ -1286,10 +1294,10 @@
     opacity: 0.2;
     display: flex;
     flex-direction: row;
-    
+
 }
 
-.back1{
+.back1 {
     background-color: white;
     width: 110px;
     height: 100px;
@@ -1297,20 +1305,20 @@
 
 }
 
-.game2{
+.game2 {
     background-color: white;
     width: 695px;
     height: 100px;
-    margin-top: 25px;   
-    border-radius: 0 12px 12px 0;  
+    margin-top: 25px;
+    border-radius: 0 12px 12px 0;
     opacity: 0.2;
     display: flex;
     flex-direction: row;
     margin-left: -20px;
-    
+
 }
 
-.back2{
+.back2 {
     background-color: white;
     width: 110px;
     height: 100px;
@@ -1318,7 +1326,7 @@
 
 }
 
-.game3{
+.game3 {
     background-color: white;
     width: 735px;
     height: 100px;
@@ -1328,10 +1336,10 @@
     opacity: 0.2;
     display: flex;
     flex-direction: row;
-    
+
 }
 
-.back3{
+.back3 {
     background-color: white;
     width: 110px;
     height: 100px;
@@ -1339,47 +1347,95 @@
 
 }
 
-.one p{
+
+
+.content-game1 {
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    width: 600px;
-    transform: translateY(-90px);
-    margin-left: 25px;
+    width: 650px;
 }
 
-.two p{
-    position: absolute;
-    width: 600px;
-    transform: translateY(-90px);
-    margin-left: 25px;
+.content-game1 p {
+    font-size: 20px;
 }
 
-.three p{
-    position: absolute;
-    width: 600px;
-    transform: translateY(-90px);
-    margin-left: 25px;
+.field1-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: translateY(-80px);
 }
 
-.title1{
+.eq1 {
+    width: 250px;
+    text-align: center;
+}
+
+.eqvs {
+    width: 50px;
+    text-align: center;
+}
+
+.eq2 {
+    width: 250px;
+    text-align: center;
+}
+
+.eq1 img {
+    width: 30px;
+    height: 30px;
+}
+
+.eq2 img {
+    width: 30px;
+    height: 30px;
+}
+
+.field1-down {
+    transform: translateY(-90px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.date {
+    width: 150px;
+    text-align: center;
+}
+
+.time {
+    width: 100px;
+    text-align: center;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+}
+
+.location {
+    width: 150px;
+    text-align: center;
+}
+
+.title1 {
     transform: translateY(-320px);
     margin-left: 65px;
     font-size: 55px;
 }
 
-.line3{
+.line3 {
     width: 250px;
     height: 2px;
     background-color: black;
     transform: translateY(-320px);
 }
 
-.title2{
+.title2 {
     transform: translateY(-250px);
     margin-left: 150px;
     font-size: 55px;
 }
 
-.line4{
+.line4 {
     width: 230px;
     height: 2px;
     background-color: black;
@@ -1388,14 +1444,15 @@
 }
 
 @media screen and (max-width: 1249px) {
-    .NextGame{
+    .NextGame {
         width: 1000px;
     }
-    
-    .shape1{
+
+    .shape1 {
         width: 200px;
     }
-    .shape2{
+
+    .shape2 {
         width: 200px;
         transform: skewX(-20deg) translateX(-80px);
     }
@@ -1404,45 +1461,81 @@
         width: 550px;
     }
 
-    .one p{
+    .one p {
         width: 525px;
     }
 
-    .game2{
+    .game2 {
         width: 595px;
     }
 
-    .two p{
+    .two p {
         width: 525px;
     }
 
-    .game3{
+    .game3 {
         width: 635px;
     }
 
-    .three p{
+    .three p {
         width: 525px;
     }
 
-    .title2{
+    .title2 {
         margin-left: 85px;
     }
-    
-    .line4{
+
+    .line4 {
         width: 200px;
         margin-left: 84px;
     }
+
+    .content-game1 {
+        width: 550px;
+    }
+
+    .content-game1 p {
+        font-size: 15px;
+    }
+
+    .eq1 {
+        width: 200px;
+        text-align: center;
+    }
+
+    .eqvs {
+        width: 50px;
+        text-align: center;
+    }
+
+    .eq2 {
+        width: 200px;
+        text-align: center;
+    }
+
+    .date {
+        width: 100px;
+    }
+
+    .time {
+        width: 100px;
+    }
+
+    .location {
+        width: 100px;
+    }
 }
 
-@media screen and (max-width: 1099px){
-    .NextGame{
+@media screen and (max-width: 1099px) {
+    .NextGame {
         width: 800px;
     }
-    
-    .shape1{
+
+    .shape1 {
         width: 200px;
     }
-    .shape2{
+
+    .shape2 {
         width: 150px;
         transform: skewX(-20deg) translateX(-75px);
     }
@@ -1451,62 +1544,66 @@
         width: 400px;
     }
 
-    .one p{
+    .one p {
         width: 380px;
         font-size: 15px;
     }
 
-    .game2{
+    .game2 {
         width: 445px;
     }
 
-    .two p{
+    .two p {
         width: 380px;
         font-size: 15px;
     }
 
-    .game3{
+    .game3 {
         width: 485px;
     }
 
-    .three p{
+    .three p {
         width: 380px;
         font-size: 15px;
     }
 
-    .title2{
+    .title2 {
         margin-left: 35px;
     }
-    
-    .line4{
+
+    .line4 {
         width: 200px;
-        margin-left: 34px;
+        margin-left: 38px;
+    }
+
+    .content-game1 {
+        width: 400px;
     }
 }
 
-@media screen and (max-width: 899px){
-    .NextGame{
+@media screen and (max-width: 899px) {
+    .NextGame {
         width: 600px;
         height: 825px;
         flex-direction: column;
         border-radius: 15px 15px 12px 12px;
     }
 
-    .next-title{
+    .next-title {
         height: 350px;
     }
 
-    .background-shape{
+    .background-shape {
         flex-direction: column;
     }
 
-    .shape1{
+    .shape1 {
         width: 600px;
         height: 200px;
         border-radius: 12px 12px 0 0;
     }
 
-    .shape2{
+    .shape2 {
         width: 600px;
         height: 150px;
         transform: skewY(-10deg) translateY(-55px);
@@ -1518,19 +1615,11 @@
         border-radius: 12px 12px 12px 12px;
     }
 
-    .back1{
+    .back1 {
         display: none;
     }
 
-    .one p{
-        width: 500px;
-        font-size: 15px;
-        margin-left: 50px;
-        margin-bottom: 0;
-        transform: translateY(-119px);
-    }
-
-    .game2{
+    .game2 {
         width: 550px;
         height: 125px;
         margin: 0;
@@ -1539,19 +1628,11 @@
         border-radius: 12px 12px 12px 12px;
     }
 
-    .back2{
+    .back2 {
         display: none;
     }
 
-    .two p{
-        width: 500px;
-        font-size: 15px;
-        margin-left: 50px;
-        margin-bottom: 0;
-        transform: translateY(-119px);
-    }
-
-    .game3{
+    .game3 {
         width: 550px;
         height: 125px;
         margin: 0;
@@ -1560,64 +1641,66 @@
         border-radius: 12px 12px 12px 12px;
     }
 
-    .back3{
+    .back3 {
         display: none;
     }
 
-    .three p{
-        width: 500px;
-        font-size: 15px;
-        margin-left: 50px;
-        margin-bottom: 0;
-        transform: translateY(-119px);
-    }
-
-    .title1{
+    .title1 {
         margin-left: 120px;
         font-size: 65px;
     }
 
-    .line3{
+    .line3 {
         width: 340px;
         transform: translateY(-330px);
     }
 
-    .title2{
+    .title2 {
         margin-left: 260px;
         transform: translateY(-290px);
         font-size: 65px;
     }
-    
-    .line4{
+
+    .line4 {
         width: 340px;
         margin-left: 260px;
         transform: translateY(-300px);
     }
+
+    .content-game1 {
+        width: 550px;
+        margin-left: 25px;
+        transform: translateY(-25px);
+    }
+
+    .content-game1 p {
+        font-size: 20px;
+    }
 }
 
-@media screen and (max-width: 649px){
-    .NextGame{
+@media screen and (max-width: 649px) {
+    .NextGame {
         width: 450px;
         height: 825px;
         flex-direction: column;
         border-radius: 15px 15px 12px 12px;
     }
 
-    .next-title{
+    .next-title {
         height: 350px;
     }
 
-    .background-shape{
+    .background-shape {
         flex-direction: column;
     }
 
-    .shape1{
+    .shape1 {
         width: 450px;
         height: 200px;
         border-radius: 12px 12px 0 0;
     }
 
-    .shape2{
+    .shape2 {
         width: 450px;
         height: 150px;
         transform: skewY(-10deg) translateY(-55px);
@@ -1629,19 +1712,11 @@
         border-radius: 12px 12px 12px 12px;
     }
 
-    .back1{
+    .back1 {
         display: none;
     }
 
-    .one p{
-        width: 350px;
-        font-size: 15px;
-        margin-left: 50px;
-        margin-bottom: 0;
-        transform: translateY(-119px);
-    }
-
-    .game2{
+    .game2 {
         width: 400px;
         height: 125px;
         margin: 0;
@@ -1650,19 +1725,11 @@
         border-radius: 12px 12px 12px 12px;
     }
 
-    .back2{
+    .back2 {
         display: none;
     }
 
-    .two p{
-        width: 350px;
-        font-size: 15px;
-        margin-left: 50px;
-        margin-bottom: 0;
-        transform: translateY(-119px);
-    }
-
-    .game3{
+    .game3 {
         width: 400px;
         height: 125px;
         margin: 0;
@@ -1671,64 +1738,65 @@
         border-radius: 12px 12px 12px 12px;
     }
 
-    .back3{
+    .back3 {
         display: none;
     }
 
-    .three p{
-        width: 350px;
-        font-size: 15px;
-        margin-left: 50px;
-        margin-bottom: 0;
-        transform: translateY(-119px);
-    }
-
-    .title1{
+    .title1 {
         margin-left: 80px;
         font-size: 65px;
     }
 
-    .line3{
+    .line3 {
         width: 300px;
         transform: translateY(-330px);
     }
 
-    .title2{
+    .title2 {
         margin-left: 150px;
         transform: translateY(-290px);
         font-size: 65px;
     }
-    
-    .line4{
+
+    .line4 {
         width: 300px;
         margin-left: 150px;
         transform: translateY(-300px);
     }
+
+    .content-game1 {
+        width: 400px;
+        margin-left: 25px;
+    }
+
+    .content-game1 p {
+        font-size: 15px;
+    }
 }
 
-@media screen and (max-width: 499px){
-    .NextGame{
+@media screen and (max-width: 499px) {
+    .NextGame {
         width: 350px;
         height: 825px;
         flex-direction: column;
         border-radius: 15px 15px 12px 12px;
     }
 
-    .next-title{
+    .next-title {
         height: 350px;
     }
 
-    .background-shape{
+    .background-shape {
         flex-direction: column;
     }
 
-    .shape1{
+    .shape1 {
         width: 350px;
         height: 200px;
         border-radius: 12px 12px 0 0;
     }
 
-    .shape2{
+    .shape2 {
         width: 350px;
         height: 150px;
         transform: skewY(-10deg) translateY(-55px);
@@ -1740,19 +1808,11 @@
         border-radius: 12px 12px 12px 12px;
     }
 
-    .back1{
+    .back1 {
         display: none;
     }
 
-    .one p{
-        width: 250px;
-        font-size: 13px;
-        margin-left: 50px;
-        margin-bottom: 0;
-        transform: translateY(-119px);
-    }
-
-    .game2{
+    .game2 {
         width: 300px;
         height: 125px;
         margin: 0;
@@ -1761,19 +1821,11 @@
         border-radius: 12px 12px 12px 12px;
     }
 
-    .back2{
+    .back2 {
         display: none;
     }
 
-    .two p{
-        width: 250px;
-        font-size: 13px;
-        margin-left: 50px;
-        margin-bottom: 0;
-        transform: translateY(-119px);
-    }
-
-    .game3{
+    .game3 {
         width: 300px;
         height: 125px;
         margin: 0;
@@ -1782,45 +1834,47 @@
         border-radius: 12px 12px 12px 12px;
     }
 
-    .back3{
+    .back3 {
         display: none;
     }
 
-    .three p{
-        width: 250px;
-        font-size: 13px;
-        margin-left: 50px;
-        margin-bottom: 0;
-        transform: translateY(-119px);
-    }
-
-    .title1{
+    .title1 {
         margin-left: 70px;
         font-size: 65px;
     }
 
-    .line3{
+    .line3 {
         width: 290px;
         transform: translateY(-330px);
     }
 
-    .title2{
+    .title2 {
         margin-left: 70px;
         transform: translateY(-290px);
         font-size: 65px;
     }
-    
-    .line4{
+
+    .line4 {
         width: 280px;
         margin-left: 70px;
         transform: translateY(-300px);
     }
+
+    .content-game1 {
+        width: 300px;
+        margin-left: 25px;
+    }
+
+    .content-game1 p {
+        font-size: 15px;
+    }
 }
+
 /* ========== next games end ========== */
 
 /* ========= clasament start =========== */
 
-.Clasament{
+.Clasament {
     margin-left: auto;
     margin-right: auto;
     height: 919px;
@@ -1834,63 +1888,62 @@
     border-radius: 12px 13px 13px 12px;
 }
 
-.Name{
+.Name {
     width: 500px;
 }
 
-.Name-shape{
+.Name-shape {
     display: flex;
     flex-direction: row;
 }
 
-.shape3{
+.shape3 {
     width: 300px;
     height: 919px;
     background-color: white;
     transform: skewX(5deg) translateX(110px);
 }
 
-.shape4{
+.shape4 {
     width: 250px;
     height: 919px;
     background-color: white;
     border-radius: 0 12px 12px 0;
 }
 
-.Name-title{
+.Name-title {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     margin-left: 50%;
     transform: translateY(-725px);
 }
 
-.title5{
+.title5 {
     margin: 0;
     font-size: 100px;
-    /* transform: translateX(-30px); */
 }
 
-.ornament5{
+.ornament5 {
     display: flex;
     flex-direction: row;
     transform: translateY(-10px);
 }
 
-.line-top5{
+.line-top5 {
     height: 350px;
     width: 2px;
     background-color: grey;
     transform: translateX(-7px) translateY(-15px);
 }
 
-.line-down5{
+.line-down5 {
     height: 350px;
     width: 2px;
     background-color: grey;
     transform: translateX(-7px) translateY(15px);
 }
 
-.diamond5{
+.diamond5 {
     width: 20px;
     height: 20px;
     border-left: 2px solid grey;
@@ -1898,15 +1951,7 @@
     transform: rotate(45deg);
 }
 
-/* .circle5{
-    width: 40px;
-    height: 40px;
-    border-bottom: 2px solid black;
-    border-radius: 50%;
-    transform: translateY(-3px);
-} */
-
-.lista{
+.lista {
     display: flex;
     flex-direction: column;
 }
@@ -1915,7 +1960,7 @@
     width: 700px;
 }
 
-.section1{
+.section1 {
     background-color: white;
     width: 600px;
     height: 50px;
@@ -1927,14 +1972,14 @@
     flex-direction: row;
 }
 
-.back-section1{
+.back-section1 {
     background-color: white;
     width: 150px;
     height: 50px;
     transform: skewX(5deg) translateX(570px);
 }
 
-.scris-header{
+.scris-header {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -1942,52 +1987,52 @@
     margin-left: 35px;
 }
 
-.scris-header p{
+.scris-header p {
     font-size: 20px;
     font-weight: bold;
 }
 
-.list-header .nr-echipa{
+.list-header .nr-echipa {
     width: 40px;
     text-align: center;
 }
 
-.scris-header .list-nume{
-   width: 350px;
-   text-align: center;
+.scris-header .list-nume {
+    width: 350px;
+    text-align: center;
 }
 
-.scris-header .mj{
+.scris-header .mj {
     width: 60px;
     text-align: center;
 }
 
-.scris-header .victorii{
+.scris-header .victorii {
     width: 60px;
     text-align: center;
 }
 
-.scris-header .infrangeri{
+.scris-header .infrangeri {
     width: 60px;
     text-align: center;
 }
 
-.scris-header .seturi{
+.scris-header .seturi {
     width: 80px;
     text-align: center;
 }
 
-.scris-header .puncte{
+.scris-header .puncte {
     width: 60px;
     text-align: center;
 }
 
-.list-middle{
+.list-middle {
     width: 700px;
     height: 744px;
 }
 
-.section2{
+.section2 {
     background-color: white;
     width: 700px;
     height: 719px;
@@ -1999,14 +2044,19 @@
     flex-direction: row;
 }
 
-.back-section2{
+.back-section2 {
     background-color: white;
     width: 225px;
     height: 719px;
     transform: skewX(5deg) translateX(530px);
 }
 
-.locul1{
+.show-as-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.locul1 {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -2014,19 +2064,19 @@
     transform: translateY(-710px);
 }
 
-.locul1 p{
+.locul1 p {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
 }
 
-.nume-echipa img{
+.nume-echipa img {
     width: 40px;
     height: 40px;
     margin-right: 25px;
 }
 
-.nr-calificare{
+.nr-calificare {
     width: 40px;
     text-align: center;
     display: flex;
@@ -2035,14 +2085,14 @@
     border-radius: 12px;
 }
 
-.nume-echipa{
+.nume-echipa {
     width: 350px;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
-.meciuri-jucate{
+.meciuri-jucate {
     width: 60px;
     text-align: center;
     display: flex;
@@ -2050,7 +2100,7 @@
     align-items: center;
 }
 
-.victorii-echipa{
+.victorii-echipa {
     width: 60px;
     text-align: center;
     display: flex;
@@ -2058,7 +2108,7 @@
     align-items: center;
 }
 
-.infrangeri-echipa{
+.infrangeri-echipa {
     width: 60px;
     text-align: center;
     display: flex;
@@ -2066,7 +2116,7 @@
     align-items: center;
 }
 
-.seturi-echipa{
+.seturi-echipa {
     width: 80px;
     text-align: center;
     display: flex;
@@ -2074,7 +2124,7 @@
     align-items: center;
 }
 
-.puncte-echipa{
+.puncte-echipa {
     width: 60px;
     text-align: center;
     display: flex;
@@ -2082,7 +2132,7 @@
     align-items: center;
 }
 
-.spacer1{
+.spacer1 {
     margin-left: 35px;
     height: 1px;
     width: 700px;
@@ -2090,19 +2140,19 @@
     transform: translateY(-660px);
 }
 
-.campionat{
+.campionat {
     background-color: green;
 }
 
-.calificare{
+.calificare {
     background-color: #00a1e4;
 }
 
-.retrogradare{
+.retrogradare {
     background-color: red;
 }
 
-.locul2{
+.locul2 {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -2110,13 +2160,13 @@
     transform: translateY(-651px);
 }
 
-.locul2 p{
+.locul2 p {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
 }
 
-.spacer2{
+.spacer2 {
     margin-left: 35px;
     height: 1px;
     width: 700px;
@@ -2124,7 +2174,7 @@
     transform: translateY(-601px);
 }
 
-.locul3{
+.locul3 {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -2132,13 +2182,13 @@
     transform: translateY(-592px);
 }
 
-.locul3 p{
+.locul3 p {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
 }
 
-.spacer3{
+.spacer3 {
     margin-left: 35px;
     height: 1px;
     width: 700px;
@@ -2146,7 +2196,7 @@
     transform: translateY(-542px);
 }
 
-.locul4{
+.locul4 {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -2154,13 +2204,13 @@
     transform: translateY(-533px);
 }
 
-.locul4 p{
+.locul4 p {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
 }
 
-.spacer4{
+.spacer4 {
     margin-left: 35px;
     height: 1px;
     width: 700px;
@@ -2168,7 +2218,7 @@
     transform: translateY(-483px);
 }
 
-.locul5{
+.locul5 {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -2176,13 +2226,13 @@
     transform: translateY(-474px);
 }
 
-.locul5 p{
+.locul5 p {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
 }
 
-.spacer5{
+.spacer5 {
     margin-left: 35px;
     height: 1px;
     width: 700px;
@@ -2190,7 +2240,7 @@
     transform: translateY(-424px);
 }
 
-.locul6{
+.locul6 {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -2198,13 +2248,13 @@
     transform: translateY(-415px);
 }
 
-.locul6 p{
+.locul6 p {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
 }
 
-.spacer6{
+.spacer6 {
     margin-left: 35px;
     height: 1px;
     width: 700px;
@@ -2212,7 +2262,7 @@
     transform: translateY(-365px);
 }
 
-.locul7{
+.locul7 {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -2220,13 +2270,13 @@
     transform: translateY(-356px);
 }
 
-.locul7 p{
+.locul7 p {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
 }
 
-.spacer7{
+.spacer7 {
     margin-left: 35px;
     height: 1px;
     width: 700px;
@@ -2234,7 +2284,7 @@
     transform: translateY(-306px);
 }
 
-.locul8{
+.locul8 {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -2242,13 +2292,13 @@
     transform: translateY(-297px);
 }
 
-.locul8 p{
+.locul8 p {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
 }
 
-.spacer8{
+.spacer8 {
     margin-left: 35px;
     height: 1px;
     width: 700px;
@@ -2256,7 +2306,7 @@
     transform: translateY(-247px);
 }
 
-.locul9{
+.locul9 {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -2264,13 +2314,13 @@
     transform: translateY(-238px);
 }
 
-.locul9 p{
+.locul9 p {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
 }
 
-.spacer9{
+.spacer9 {
     margin-left: 35px;
     height: 1px;
     width: 700px;
@@ -2278,7 +2328,7 @@
     transform: translateY(-188px);
 }
 
-.locul10{
+.locul10 {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -2286,13 +2336,13 @@
     transform: translateY(-179px);
 }
 
-.locul10 p{
+.locul10 p {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
 }
 
-.spacer10{
+.spacer10 {
     margin-left: 35px;
     height: 1px;
     width: 700px;
@@ -2300,7 +2350,7 @@
     transform: translateY(-129px);
 }
 
-.locul11{
+.locul11 {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -2308,13 +2358,13 @@
     transform: translateY(-120px);
 }
 
-.locul11 p{
+.locul11 p {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
 }
 
-.spacer11{
+.spacer11 {
     margin-left: 35px;
     height: 1px;
     width: 700px;
@@ -2322,7 +2372,7 @@
     transform: translateY(-70px);
 }
 
-.locul12{
+.locul12 {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -2330,17 +2380,17 @@
     transform: translateY(-61px);
 }
 
-.locul12 p{
+.locul12 p {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
 }
 
-.legenda{
+.legenda {
     width: 700px;
 }
 
-.section3{
+.section3 {
     background-color: white;
     width: 700px;
     height: 50px;
@@ -2352,14 +2402,14 @@
     flex-direction: row;
 }
 
-.back-section3{
+.back-section3 {
     background-color: white;
     width: 200px;
     height: 50px;
     transform: skewX(5deg) translateX(590px);
 }
 
-.scris-legenda{
+.scris-legenda {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -2367,49 +2417,208 @@
     margin-left: 35px;
 }
 
-.scris-legenda .campionat{
+.scris-legenda .campionat {
     width: 30px;
     height: 30px;
     border-radius: 12px;
 }
 
-.scris-legenda .calificare{
+.scris-legenda .calificare {
     width: 30px;
     height: 30px;
     border-radius: 12px;
 }
 
-.scris-legenda .retrogradare{
+.scris-legenda .retrogradare {
     width: 30px;
     height: 30px;
     border-radius: 12px;
 }
 
-.scris-legenda p{
+.scris-legenda p {
     font-size: 20px;
     margin-left: 15px;
     margin-right: 15px;
 }
 
-/* ========= clasament start =========== */
+@media screen and (max-width: 1249px) {
+    .Clasament {
+        width: 1000px;
+    }
+
+    .shape3 {
+        width: 150px;
+    }
+
+    .shape4 {
+        width: 200px;
+    }
+
+    .lista {
+        width: 650px;
+    }
+
+    .Name {
+        width: 350px;
+    }
+
+    .list-header {
+        width: 650px;
+    }
+
+    .scris-header .list-nume {
+        width: 300px;
+    }
+
+    .nume-echipa {
+        width: 300px;
+    }
+
+    .spacer-width {
+        width: 650px;
+    }
+
+}
+
+@media screen and (max-width: 1099px) {
+    .Clasament {
+        width: 800px;
+        height: 1270px;
+        flex-direction: column;
+        border-radius: 14px 14px 12px 12px;
+    }
+
+    .Name {
+        width: 800px;
+        height: 350px;
+        flex-direction: column;
+    }
+
+    .Name-shape {
+        flex-direction: column;
+    }
+
+    .shape3 {
+        width: 800px;
+        height: 200px;
+        transform: skewX(0deg) translateX(0);
+        border-radius: 12px 12px 0 0;
+
+    }
+
+    .shape4 {
+        width: 800px;
+        height: 150px;
+        transform: skewY(-5deg) translatey(-35px);
+        border-radius: 0;
+    }
+
+    .lista {
+        width: 800px;
+    }
+
+    .list-header {
+        width: 800px;
+    }
+
+    .list-middle {
+        width: 800px;
+    }
+
+    .legenda {
+        width: 800px;
+    }
+
+    .section1 {
+        width: 750px;
+        border-radius: 12px;
+    }
+
+    .back-section1 {
+        display: none;
+    }
+
+    .section2 {
+        width: 750px;
+        border-radius: 12px;
+    }
+
+    .back-section2 {
+        display: none;
+    }
+
+    .section3 {
+        width: 750px;
+        border-radius: 12px;
+    }
+
+    .back-section3 {
+        display: none;
+    }
+
+    .scris-header .list-nume {
+        width: 350px;
+    }
+
+    .nume-echipa {
+        width: 350px;
+    }
+
+    .spacer-width {
+        width: 730px;
+    }
+
+    .Name-title {
+        writing-mode: horizontal-tb;
+        text-orientation: mixed;
+        transform: translateY(-250px);
+        margin: 0;
+    }
+
+    .diamond5 {
+        border: none;
+        border-right: 2px solid grey;
+        border-bottom: 2px solid grey;
+        transform: translateX(7px) translateY(-5px) rotate(45deg);
+    }
+
+    .line-top5{
+        width: 383px;
+        height: 2px;
+        transform: translate(0);
+    }
+
+    .line-down5{
+        width: 383px;
+        height: 2px;
+        transform: translate(0);
+        transform: translateX(14px);
+    }
+
+    .title5{
+        text-align: center;
+    }
+}
+
+/* ========= clasament end =========== */
 
 /* ========= team presentation start =========== */
 
-.our-team{
+.our-team {
     width: 100%;
     height: 2000px;
     background-image: url(/img/Unback.png);
     background-size: cover;
 }
 
-.antrenori{
+.antrenori {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 100px;
 }
 
-.card{
+.card {
     width: 300px;
     height: 450px;
     color: #fff;
@@ -2420,18 +2629,18 @@
     backdrop-filter: blur(5px);
 }
 
-.row1{
+.row1 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 100px;
 }
 
-.row2{
+.row2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 100px;
 }
 
-/* ========= team presentation start =========== */
+/* ========= team presentation end =========== */
