@@ -1,0 +1,94 @@
+.logo {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: transparent;
+    transition: ease-out 0.3s;
+}
+
+.logo-img {
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+}
+
+.logo-name {
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+
+}
+
+.logo:hover {
+    transform: scale(1.5);
+
+}
+
+/* next test */
+
+/* =====slider start===== */
+.carousel-item {
+    height: 90vh;
+}
+
+.section {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.section h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 25vw;
+    font-weight: 900;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .8);
+    mix-blend-mode: multiply;
+}
+
+.s-2 h2 {
+    font-size: 20vw;
+}
+
+.s-3 h2 {
+    font-size: 15vw;
+}
+
+.s-4 h2 {
+    font-size: 15vw;
+}
+
+.img1 {
+    background-image: url("/img/test2.jpg");
+    background-size: cover;
+}
+
+.img2 {
+    background-image: url("/img/test2.jpg");
+    background-size: cover;
+}
+
+.img3 {
+    background-image: url("/img/test2.jpg");
+    background-size: cover;
+}
+
+.img4 {
+    background-image: url("/img/test2.jpg");
+    background-size: cover;
+}
+
+/* =====slider end===== */
